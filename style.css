@@ -1,0 +1,402 @@
+#container1{
+    width:99%;
+    height: 400px;
+    background:lightcoral;
+    position: absolute;
+}
+#container2{
+    width:99%;
+    height: 50px;
+    background: gray;
+    position: absolute;
+    margin-top: 401px;
+
+}
+#container3{
+    width:99%;
+    height: 300px;
+    background: whitesmoke;
+    position: absolute;
+    margin-top: 472px;
+
+}
+#showBudget{
+    margin-top: 50px;
+    width:500px;
+    height: 300px;
+    opacity: 0.5;
+    box-shadow: 0px 0px 25px rgb(250, 199, 199);
+    background: transparent;
+    
+}
+
+#showBudget:hover{
+
+    box-shadow: 10px 10px 25px 10px rgb(139, 108, 108);
+}
+#displayMonth{
+    width:500px;
+    cursor: default;
+    color:black;
+    font-size: 30px;
+    margin-top: -280px;
+    position: absolute;
+    margin-left: 495px;
+
+}
+#showCurrentBudget{
+    width:500px;
+    color:white;
+    font-size: 40px;
+    margin-top: -230px;
+    letter-spacing: 3px;
+    position: absolute;
+    cursor: default;
+    margin-left: 495px;
+}
+#income{
+    width:480px;
+    color:white;
+    height: 35px;
+    background: rgb(39, 241, 127);
+    font-size: 20px;
+    text-align: left;
+    padding-left:20px ;
+    margin-top: -160px;
+    padding-top:10px;
+    letter-spacing: 3px;
+    position: absolute;
+    margin-left: 502px;
+}
+#income > #incomeStatus{
+    width:450px;
+    margin-top: -28px;
+    margin-left:-20px;
+    color:white;
+    height: 35px;
+    font-size: 31px;
+    cursor: default;
+    text-align: right;
+    padding-right: 50px;
+    letter-spacing: 5px;
+    position: absolute;
+}
+#expense{
+    width:480px;
+    color:white;
+    height: 35px;
+    background:rgb(245, 39, 39);
+    font-size: 20px;
+    text-align: left;
+    padding-left:20px ;
+    margin-top: -90px;
+    padding-top:10px;
+    letter-spacing: 3px;
+    position: absolute;
+    margin-left: 502px;
+}
+#expense > #expenseStatus{
+    width:450px;
+    margin-top: -28px;
+    margin-left:-20px;
+    color:white;
+    height: 35px;
+    cursor: default;
+    font-size: 31px;
+    text-align: right;
+    padding-right: 50px;
+    letter-spacing: 5px;
+    position: absolute;
+}
+#expense > #percExpenseStatus{
+    background: rgb(85, 2, 2);
+    width:auto;
+    cursor: default;
+    color:sandybrown;
+    position: absolute;
+    margin-top: -20px;
+    margin-left: 430px;
+    font-size: 17px;
+    letter-spacing: 0;
+    text-align: center;
+}
+#IncomeExpenseSelector{
+    width:120px;
+    height: 40px;
+    margin-top: 5px;
+    margin-left: -392px;
+    position: absolute;
+    cursor: pointer;
+    border: 2px solid lightgreen;
+    outline: none;
+    color:white;
+    background: green;
+    font-size: 20px;
+}
+option{
+    background: rgb(217, 241, 159);
+    color:black;
+    outline: green;
+    font-size: 20px;
+    cursor: pointer;
+}
+#sortDiv{
+    background: black;
+    border: 1px solid gray;
+    border-right: 0px;
+    color:white;
+    position: absolute;
+    font-size: 25px;
+    height: 29px;
+    letter-spacing: 1px;
+    margin-top: -20px;
+    margin-left: 655px;
+}
+#sortSelectBox{
+    height: 31px;
+    width:100px;
+    position: absolute;
+    margin-top: -1px;
+    background:rgb(46, 45, 45);
+    border: 1px solid gray;
+    outline: none;
+    color:white;
+    font-size: 20px;
+    border-left: 0px;
+    cursor: pointer;
+}
+#sortSelectBox:hover{
+    background: rgb(24, 20, 20);
+}
+#searchDiv{
+    background: red;
+    position: absolute;
+    margin-left: 87%;
+    margin-top: -20px;
+}
+#search{
+    outline: none;
+}
+#search:hover,#search:focus{
+    width:370px;
+   outline:1px solid black;
+    margin-left: -208px;
+}
+#searchBtn:hover{
+    border:1px solid black
+}
+#date{
+    width:80px;
+    position: absolute;
+    font-size:20px;
+    height: 34px;
+    margin-top: 5px;
+    outline: none;
+    border: 2px solid green;
+    margin-left: -270px;
+}
+#description{
+    width:383px;
+    font-size:20px;
+    height: 34px;
+    margin-top: 5px;
+    padding-left: 20px;
+    margin-left: -180px;
+    position: absolute;
+    outline: none;
+    border: 2px solid green;
+}
+#value{
+    width:100px;
+    font-size:20px;
+    height: 34px;
+    margin-top: 5px;
+    margin-left: 230px;
+    position: absolute;
+    outline: none;
+    border: 2px solid green;
+}
+#addBtn{
+    width:80px;
+    font-size:20px;
+    height: 40px;
+    margin-top: 5px;
+    margin-left: 340px;
+    position: absolute;
+    outline: none;
+    text-shadow: 1px 0px 2px black;
+    cursor:  pointer;
+    background: lightgreen;
+    border: 2px solid green;
+}
+#updateBtn{
+    width:80px;
+    font-size:20px;
+    height: 40px;
+    margin-top: 5px;
+    margin-left: 290px;
+    position: absolute;
+    outline: none;
+    text-shadow: 1px 0px 2px black;
+    cursor:  pointer;
+    background: lightgreen;
+    border: 2px solid green;
+}
+
+#incomeRecords{
+    width:50%;
+    margin-top: 20px;
+    position: absolute;
+    color:green;
+    font-size: 30px;
+    text-align: center;
+    height: 285px;
+    margin-left: 10px;
+    overflow-y: scroll;
+    scrollbar-color: red;
+}
+#expenseRecords{
+    width:50%;
+    margin-top: 20px;
+    position: absolute;
+    color:red;
+    font-size: 30px;
+    text-align: center;
+    height: 285px;
+    overflow-y: scroll;
+    margin-left: 50%;
+}
+#iRec{
+    margin-left: 20px;
+    width:95%;
+    border: 1px solid wheat;
+    margin-top: 20px;
+    font-size:20px ;
+}
+#eRec{
+    font-size:20px ;
+    margin-left: 20px;
+    margin-top: 20px;
+    width:95%;
+    border: 1px solid wheat;
+}
+th,td{
+    border-bottom: 1px solid wheat;
+    border-right:1px solid wheat ;
+}
+button{
+   outline:2px solid black;
+   background: gray;
+   border: 0;
+   cursor: pointer;
+   color: white;
+}
+button:hover{
+    background: white;
+    color:black;
+}
+font{
+    cursor:none;
+}
+@media screen and (max-width:1424px){
+    #displayMonth{
+        margin-left: 380px;
+    }
+    #showCurrentBudget{
+        margin-left: 390px;
+    }
+    #income,#expense{
+        margin-left: 385px;
+    }
+    #sortDiv{
+        margin-left: 550px;
+    }
+} 
+@media screen and (max-width:1124px){
+    #displayMonth{
+        margin-left: 250px;
+    }
+    #showCurrentBudget{
+        margin-left: 260px;
+    }
+    #income,#expense{
+        margin-left: 250px;
+    }
+} 
+@media screen and (max-width:724px){
+     
+        #showBudget{
+            background: yellow;
+            width: 98%;
+        }
+
+        #displayMonth{
+            margin-left: -10px;
+            padding-left: 0px;
+        }
+        #showCurrentBudget{
+            margin-left: -20px;
+        }
+        #income,#expense{
+            margin-left: 10px;
+            width:92%;
+        }
+        #expense > #percExpenseStatus{
+            margin-left: 355px;
+            margin-top: 12px;
+        }
+        th,td{
+           font-size: 10px;
+       }
+       button{
+           width:45px;
+           font-size: 10px;
+       }
+       #iRec,#eRec{
+           margin-left: 0px;
+       }
+       #incomeRecords{
+           margin-left: 0px;
+       }
+       #IncomeExpenseSelector{
+           margin-left: -230px;
+           width: 69px;
+           font-size: 10px;
+       }
+       #description{
+           width:150px;
+           margin-left:-108px;
+           font-size: 12px;
+       }
+       #date{
+           width:45px;
+           font-size: 12px;
+           margin-left: -160px;
+       }
+       #value{
+           margin-left: 67px;
+           font-size: 12px;
+           width:70px;
+       }
+       #addBtn{
+           margin-left: 146px;
+           font-size: 12px;
+       }
+       #sortDiv{
+           margin-top: -18px;
+           margin-left: 0px;
+           font-size: 14px;
+           height: 18px;
+       }
+       #sortSelectBox{
+        font-size: 14px;
+           height: 20px;   
+       }
+       #searchDiv{
+           margin-left: 64%;
+       }
+       #search:hover,#search:focus{
+           width:250px;
+           margin-left: -95px;
+       }
+}

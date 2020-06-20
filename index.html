@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Budget APP</title>
+    <link rel="Stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="container1">
+        <center>
+            <div id="showBudget"></div>
+            <div id="displayMonth">Available Budget in %month% %year%</div>
+            <div id="showCurrentBudget">+0.00</div>
+            <div id="income">Income<div id="incomeStatus">+0.00</div>
+            </div>
+            <div id="expense">Expense<div id="expenseStatus">-0.00</div>
+                <div id="percExpenseStatus">---</div>
+            </div>
+        </center>
+    </div>
+    <div id="container2">
+        <center>
+            <select id="IncomeExpenseSelector">
+                <option value="inc" selected>Income</option>
+                <option value="exp">Expense</option>
+            </select>
+            <input type="number" min=1 max=31 placeholder="Date" id="date">
+            <input type="text" placeholder="Add Description" id="description">
+            <input type="number" id="value" placeholder="Value">
+            <button id="addBtn">ADD</button>
+        </center>
+    </div>
+    <div id="container3">
+        <div id="sortDiv">
+            Sort By | <select id="sortSelectBox">
+                <option value="date">Date</option>
+                <option value=name>Name</option>
+                <option value="amount">Amount</option>
+            </select>
+        </div>
+        <div id="searchDiv">
+            <input type="text" id="search" placeholder="Search.......">
+        </div>
+        <div id="incomeRecords">
+
+            Income
+            <table id="iRec">
+                <tr>
+                    <th>Date</th>
+                    <th>Income Name</th>
+                    <th>Money</th>
+                    <th>Delete</th>
+                    <th>Update</th>
+                </tr>
+            </table>
+        </div>
+        <div id="expenseRecords">
+            Expense
+            <table id="eRec">
+                <tr>
+                    <th>Date</th>
+                    <th>Expense Name</th>
+                    <th>Money</th>
+                    <th>Delete</th>
+                    <th>Update</th>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+</body>
+<script src="main.js"></script>
+
+</html>
